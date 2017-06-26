@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "6c852b5cecd7c0410182110abf10736c",
+    "content-hash": "45e12590183f4b6bbd6ba0c586ee6953",
     "packages": [
         {
             "name": "sales-tax-lookup/sales-tax-wa",
-            "version": "v1.0.0-beta",
+            "version": "v1.1.0-beta",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sales-tax-lookup/sales-tax-wa.git",
-                "reference": "dd9411243322fb23eafa372a083b50f384c028a4"
+                "reference": "a61e4197375d0c03ce07afef7c2141ad7646d61c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sales-tax-lookup/sales-tax-wa/zipball/dd9411243322fb23eafa372a083b50f384c028a4",
-                "reference": "dd9411243322fb23eafa372a083b50f384c028a4",
+                "url": "https://api.github.com/repos/sales-tax-lookup/sales-tax-wa/zipball/a61e4197375d0c03ce07afef7c2141ad7646d61c",
+                "reference": "a61e4197375d0c03ce07afef7c2141ad7646d61c",
                 "shasum": ""
             },
             "require": {
@@ -29,7 +29,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "SalesTaxWA\\": "src/"
+                    "SalesTaxWa\\": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -50,7 +50,7 @@
                 "sales tax finder",
                 "washtington state"
             ],
-            "time": "2017-06-02T22:00:59+00:00"
+            "time": "2017-06-26T22:46:18+00:00"
         }
     ],
     "packages-dev": [],
