@@ -7,5 +7,9 @@
             "name": "Adam Bassett",
             "email": "adam@bassettandbrush.com"
         }
-    ]    
+    ],
+    "minimum-stability":"beta",
+     "require": {
+          "sales-tax-lookup/sales-tax-wa": "^1.0@beta"
+     }
 }
