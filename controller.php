@@ -8,8 +8,8 @@ use Whoops\Exception\ErrorException;
 
 class Controller extends Package
 {
-    protected $pkgHandle = 'Washington Sales Tax Lookup';
-    protected $appVersionRequired = '5.7.4';
+    protected $pkgHandle = 'community_store_wa_tax_lookup';
+    protected $appVersionRequired = '5.7.5';
     protected $pkgVersion = '1.0';
 
     public function getPackageDescription(){
@@ -29,7 +29,7 @@ class Controller extends Package
             $pkg = parent::install();
         }
     }
-    
+
     public function on_start(){
         require  'vendor/autoload.php';
     }
