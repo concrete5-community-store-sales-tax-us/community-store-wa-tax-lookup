@@ -1,0 +1,11 @@
+{
+     "name": "concrete5-community-store-sales-tax-us/community_store-wa-tax-lookup",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adam Bassett",
+            "email": "adam@bassettandbrush.com"
+        }
+    ]    
+}
